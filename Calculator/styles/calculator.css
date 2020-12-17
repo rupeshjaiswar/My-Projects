@@ -1,0 +1,66 @@
+body {
+    background-image: url("images/background.jpg");
+    height: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table,
+th,
+td,
+tr {
+    background-color: black;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table {
+    margin-top: 90px;
+    border: groove 4px;
+}
+
+input[type="button"] {
+    background-color: gray;
+    border-radius: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0 4px indigo;
+}
+
+input[type="text"] {
+    border: solid gray 4px;
+    width: 100%;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: 0 4px burlywood;
+}
+
+input {
+    text-align: center;
+    width: 75px;
+    height: 35px;
+    text-transform: lowercase;
+    font-weight: bold;
+    font-size: large;
+}
+
+#mydiv {
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    background-color: black;
+    color: blanchedalmond;
+    margin-top: 10px;
+}
+
+input[type="button"]:hover {
+    background-color: chartreuse
+}
+
+input[type="button"]:active {
+    transform: translateY(5px);
+}

@@ -22,8 +22,8 @@
     width: 100%;
     height: 100%;
     z-index: 1;
-    opacity: 0.75;
-    background-image: url("background.jpg");
+    opacity: 0.4;
+    background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
@@ -82,7 +82,6 @@
 
 #btnn {
     background-color: rgb(3, 3, 58);
-    float: right;
     border-color: black;
     border-radius: 50px;
     font-variant: small-caps;
@@ -90,12 +89,36 @@
     font-weight: bolder;
     font-size: x-large;
     box-shadow: 0 5px black;
+    text-decoration: aliceblue;
+    position: relative;
+    float: right;
+    right: 40px;
 }
 
 #btnn:hover {
     background-color: rgb(82, 1, 82);
 }
 
-#btnn:active {
-    transform: translateY(5px);
+input[type="radio"] {
+    float: right;
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+    right: 25px;
+    -ms-transform: scale(3);
+    /* IE 9 */
+    -webkit-transform: scale(3);
+    /* Chrome, Safari, Opera */
+    transform: scale(3);
+}
+
+#result {
+    text-align: center;
+    background-color: inherit;
+    color: darkgreen;
+    font-variant: small-caps;
+    font-size: 2vmax;
+    font-style: oblique;
+    font-family: sans-serif;
+    font-weight: bolder;
 }
